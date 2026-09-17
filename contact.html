@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Glow Guide</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="container header-content">
+        <a class="logo" href="index.html">
+            Glow<span>Guide</span>
+        </a>
+
+        <nav aria-label="Main navigation">
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">Skincare Guide</a>
+                </li>
+                <li>
+                    <a class="active" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="page-hero">
+        <div class="container">
+            <p class="eyebrow">GET IN TOUCH</p>
+            <h1>Contact Glow Guide</h1>
+            <p>
+                Complete the form below to share your skincare topic,
+                question or feedback.
+            </p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container contact-grid">
+            <div class="contact-info">
+                <p class="eyebrow">CONTACT FORM</p>
+                <h2>Tell us what you want to learn</h2>
+                <p>
+                    Share your skincare topic, question or feedback
+                    using the form.
+                </p>
+            </div>
+
+            <div class="form-card">
+                <form action="#" method="get">
+                    <fieldset>
+                        <legend>Personal information</legend>
+                        <div class="form-group">
+                            <label for="name">
+                                Full name *
+                            </label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Enter your name"
+                                maxlength="50"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">
+                                Email address *
+                            </label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="example@email.com"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="age">
+                                Age
+                            </label>
+                            <input
+                                type="number"
+                                id="age"
+                                name="age"
+                                min="13"
+                                max="100"
+                                placeholder="13–100"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="date">
+                                Preferred date
+                            </label>
+                            <input
+                                type="date"
+                                id="date"
+                                name="date"
+                            >
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Topic</legend>
+                        <div class="radio-group">
+                            <label for="topic-skin">
+                                <input
+                                    type="radio"
+                                    id="topic-skin"
+                                    name="topic"
+                                    value="skin-type"
+                                    required
+                                >
+                                Skin types
+                            </label>
+
+                            <label for="topic-routine">
+                                <input
+                                    type="radio"
+                                    id="topic-routine"
+                                    name="topic"
+                                    value="routine"
+                                >
+                                AM / PM routine
+                            </label>
+
+                            <label for="topic-ingredients">
+                                <input
+                                    type="radio"
+                                    id="topic-ingredients"
+                                    name="topic"
+                                    value="ingredients"
+                                >
+                                Ingredients
+                            </label>
+
+                            <label for="topic-sunscreen">
+                                <input
+                                    type="radio"
+                                    id="topic-sunscreen"
+                                    name="topic"
+                                    value="sunscreen"
+                                >
+                                Sunscreen
+                            </label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Message</legend>
+                        <div class="form-group">
+                            <label for="message">
+                                Your question or feedback
+                            </label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="6"
+                                maxlength="500"
+                                placeholder="Write your message here..."
+                            ></textarea>
+                        </div>
+
+                        <div class="checkbox-group">
+                            <label for="updates">
+                                <input
+                                    type="checkbox"
+                                    id="updates"
+                                    name="updates"
+                                    value="yes"
+                                >
+                                I would like to receive skincare updates.
+                            </label>
+                        </div>
+                    </fieldset>
+
+                    <button type="submit" class="button">
+                        Send message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-content">
+        <div>
+            <p class="footer-logo">
+                Glow<span>Guide</span>
+            </p>
+            <p>
+                Beauty & skincare educational website.
+            </p>
+        </div>
+        <p>
+            © 2026 Glow Guide. Assignment #1.
+        </p>
+    </div>
+</footer>
+</body>
+</html>
